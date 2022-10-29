@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    
+</head>
+<body>
+    <div id="cadastroProduto">
+        <form name="caProdutos">
+            <label>Nome Produto</label><br />
+            <input type="text" name="inputNomeProduto">
+            <br /><br />
+            <label>Quantidade Produto</label><br />
+            <input type="text" name="inputQtdproduto">
+            <br /><br />
+            <label>Preço</label><br />
+            <input type="text" name="inputPrecoProduto">
+            <br /><br />
+            <input type="button" value="Adicionar Produtos" onclick="cadProdutos(inputNomeProduto.value, inputQtdproduto.value, inputPrecoProduto.value )">
+        </form>
+    </div>
+    <br /><br />
+
+    <div id="listaProdotos">
+        <table id="tabProdutos">
+            <thead>
+                <tr>
+                    <td>Codigo</td>
+                    <td>Nome Produto</td>
+                    <td>Qtd Produto</td>
+                    <td>Preço Produto</td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+</html>
