@@ -1,0 +1,23 @@
+#cadastroProduto{
+    font: 16px;
+    justify-content: center;
+    padding: 30px 500px;
+}
+
+form {
+   font: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#listaProdotos{
+    padding: 20px 400px;
+    
+}
+
+table, thead, tr, td {
+    width: 600px;
+
+   
+}
